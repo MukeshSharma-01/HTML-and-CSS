@@ -1,0 +1,93 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color:#1b74e4;
+    font-size:50px;
+}
+#searchbtn {
+  background-color: black;
+    color:white;
+    border:2px;
+    padding-left: 14px;
+    padding-right: 14px;
+    transition-duration:1s ;
+    transition-delay:1s;
+}
+#searchbtn:hover{
+   border-radius:40%;
+   background-color: #1b74e4;
+}
+.userbtn{
+    background-color:lightskyblue;
+    border-radius:5px;
+}
+.loginbtn{
+    border-radius:40%;
+}
+#searchbox{
+    border-radius:15px;
+}
+#outer{
+    height:200px;
+    width:70px;
+    border:2px solid black;
+}
+.inner{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:50%;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: rgb(10, 201, 10);
+}
+h2{
+    display:inline;
+    font-size:40px;
+}
+div{
+    font-size:2em;
+}
+#back{
+    height:250px;
+    width:400px;
+    margin:20px;
+    border:2px solid black;
+    background-color: black;
+    background-image: url(Myntra.png);
+    background-size:contain;
+}
+.card{
+   width:200px;
+   height:200px;
+    margin:50px;
+    border:2px solid black;
+    display:inline-block;
+  border-radius:5px;
+  box-shadow:2px 4px 6px;
+  transition:1s;
+}
+  #name,#profession{
+    font-size: 15px;
+    padding-left:20px;
+  }
+.desc{
+    padding:0 2px 0 2px;
+    font-size:30px;
+}
+img{
+   width:100%;
+   height:50%;
+ 
+}
+.card:hover{
+    box-shadow:4px 8px 12px red;
+}

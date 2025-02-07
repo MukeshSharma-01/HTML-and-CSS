@@ -1,0 +1,74 @@
+#flexbox{
+    height:400px;
+    border:2px solid black;
+    border-color:black;
+    width:80%;
+    margin:20px auto;
+    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items:flex-end;
+}
+@keyframes fontAnimation{
+    from{font-size:20px; background-color: red;}
+    to{font-size:50px; background-color: blue;} 
+ }
+h1{
+    text-align:center;
+    margin-left:500px;
+    display:inline;
+    animation-name: fontAnimation;
+    animation-duration:2s;
+    animation-timing-function:ease-in;
+    animation-delay:2s;
+    animation-iteration-count:4;
+    animation-direction:alternate;
+}
+#flexbox div{
+    height:50px;
+    width:300px;
+    color: white;
+    text-align:center;
+    font-size:30px;
+    flex-grow: 2;
+}
+#GridPlayground{
+    height:300px;
+    width:600px;
+    background-color: rgb(13, 224, 224);
+    display :inline-grid;
+    /* grid-template-rows: 100px 100px 100px 100px;      /*kitni column and rows hogi iss size ki
+    grid-template-columns: 100px 100px 100px; */
+    grid-template-rows:repeat(10,10fr);                 /*kitni rows and column hogi equal size ki*/
+    grid-template-columns: repeat(6,10fr);
+    grid-gap:10px 10px;                               /*row ke beech mmei kitna gap hoga*/
+    justify-items:center;       /*place item in the center*/
+
+   
+}
+.item{
+    width:50px;
+    height:50px;
+    border:2px solid black;
+}
+.itemone{
+grid-column:1/5;
+width:50px;
+grid-row:1/4;
+justify-self:end;
+}
+.itemtwo{
+    grid-column:1/4;
+width:100px;
+}
+@media(width:700px){
+ span{background-color: red; font-size:50px;}   /*jab size 1000px hoga toh color change krega*/
+}
+@media(min-width:800px){
+    span{background-color: yellowgreen;}
+}
+@media(orientation:landscape){
+    h1{background-color: rgb(17, 78, 233); color:brown}
+}

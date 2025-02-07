@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentDetails</title>
+</head>
+<bodyh 
+    <main>
+        <table border="2px solid black">
+            <caption>Student Information</caption>
+              <tr>
+                    <th  rowspan="6">Info</th >
+                    <th rowspan="2">Name</th >
+                    <th  colspan="2">Address</th >
+                    </tr>
+                    <tr>
+                        <th>City</th>
+                        <th>House</th>
+                    </tr>
+                    
+                <tr>
+                    <td>A</td>
+                    <td>Delhi</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>Mumbai</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Kolkata</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>Pune</td>
+                    <td>4</td>
+                </tr>
+        </table>
+        <h1>Registration Form</h1>
+        <form action="StudentInfo.php"> 
+           <label for="Name">Name:</label>
+            <input type="text" name="Name">
+            <br><br>
+            <label for="Sex">Sex:</label>
+            <input type="radio" name="Sex" id="Male" Value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Sex" id="Female"  value="Female" >
+            <label for="Female">Female</label>
+            <br><br>
+            <label for="Country">Country:</label>
+            <select name="Country" id="Country">
+          <option >Choose your Option</option>
+           <option value="india">India</option>
+           <option value="russia">Russia</option>
+           <option value="south africa">South Africa</option>
+           <option value="scotland">Scotland</option>
+           </select>
+           <br><br>
+           <label for="Message">Message:</label><br>
+          <textarea name="Message" type="text" id="message" rows="5" cols="30"></textarea>
+          <br><br>
+          <input type="checkbox"  id="newsletter" name="newsletter">
+          <label for="newsletter">Susbscribe?</label>
+          <br><br>
+          <button>submit</button>
+        </form><br>
+        <form action="StudentFeedback.php">
+            <h1>Feedback Form </h1><br>
+        <label for="Name" >Name:</label>
+        <input type="text" name="Name" id="Name" placeholder="Name"><br><br>
+        <label for="E-mail">E-mail address:</label>
+        <input type="text" name="E-mail" id="email" placeholder="E-mail adddress"><br><br>
+        <label for="Message">Message:</label><br>
+        <textarea name="Message" placeholder="Write feedback here"    id="Message" rows="10" cols="50"></textarea><br><br>
+        <label for="rate">Rate us our of 5:</label><br>
+     <input type="radio" value="one" name="rate" id="one">
+     <label for="one">1</label><br>
+     <input type="radio" value="two" name="rate" id="two">
+     <label for="two">2</label><br>
+        <input type="radio" value="three" name="rate" id="three">
+       <label for="three">3</label><br>
+       <input type="radio" value="four" name="rate" id="four">
+       <label for="four">4</label><br>
+       <input type="radio" value="five" id="five" name="rate">
+       <label for="five">5</label><br><br>
+       <button>Send your message!</button>
+        </form>
+    </main>
+</body>
+</html>

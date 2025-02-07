@@ -1,0 +1,59 @@
+.card{
+    width:220px;
+    height:450px;
+    border:2px solid black;
+    border-radius: 25px;
+    margin:100px;
+    padding:20px;
+    text-align:start;
+    display:inline-block;
+}
+#pets{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width:100%;
+}
+h2{
+    color: orange;
+}
+h1{
+color:aqua;
+font-family:"Poppins",serif;
+font-weight: 1000;
+font-size:50px;
+}
+img{
+    height:150px;
+    width:200px;
+}
+@media(max-width:400px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
+.box1{
+    background-color: aqua;
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    position: relative;
+    left:50px;
+    z-index:0;
+}
+.box2{
+    background-color: black;
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    z-index:1;
+}
+.box3{
+    background-color: blue;
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    position: relative;
+    bottom:50px;
+    z-index:2;
+}

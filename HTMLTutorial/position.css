@@ -1,0 +1,110 @@
+#static{
+    height:100px;
+    width:100px;
+    background-color:rgb(180, 14, 47);
+    border:2px solid rgb(1, 1, 71);
+    display:inline-block;
+    margin:20px;
+}
+.static{
+    height:100px;
+    width:100px;
+    background-color:rgb(218, 246, 8);
+    border:2px solid rgb(1, 1, 71);
+    display:inline-block;
+    margin:20px;
+    position:static;
+    left:100px;
+    top:100px;
+}
+.relative{
+    height:100px;
+    width:100px;
+    background-color:rgb(218, 246, 8);
+    border:2px solid rgb(1, 1, 71);
+    display:inline-block;
+    margin:20px;
+}
+#relative{
+    height:100px;
+    width:100px;
+    background-color:rgb(180, 14, 47);
+    border:2px solid rgb(1, 1, 71);
+    display:inline-block;
+    margin:20px;
+    position:relative;
+    left:50px;
+    top:50px;
+}
+.absolute{
+    height:100px;
+    width:100px;
+    background-color:rgb(218, 246, 8);
+    border:2px solid rgb(1, 1, 71);
+    display:inline-block;
+    margin:20px;
+}
+    #absolute{
+        height:100px;
+        width:100px;
+        background-color:rgb(180, 14, 47);
+        border:2px solid rgb(1, 1, 71);
+        display:inline-block;
+        margin:20px;
+        position:absolute;
+        left:50px;
+        top:50px;
+    }
+    .fixed{
+        height:100px;
+        width:100px;
+        background-color:rgb(218, 246, 8);
+        border:2px solid rgb(1, 1, 71);
+        display:inline-block;
+        margin:20px;
+    }
+    #fixed{
+        height:100px;
+        width:100px;
+        background-color:rgb(180, 14, 47);
+        border:2px solid rgb(1, 1, 71);
+        display:inline-block;
+        margin:20px;
+        position:fixed;
+        left:250px;
+        top:500px;
+    }
+    .external{
+        background-color:rgb(243, 185, 185);
+        width:400px;
+        height:400px;
+        border-radius:50%;
+    }
+    .mouth{
+        height:100px;
+        width:200px;
+        background-color: rgb(255, 72, 0);
+        margin:25px;
+        border-radius:0 0 50px 50px;
+        margin-left:100px;
+        position:absolute;
+        top:1100px;
+    }
+    .eyes{
+        height:50px;
+        width:50px;
+        border-radius:50%;
+        position:absolute;
+        top:1000px;
+        left:110px;
+        background-color:black;
+    }
+    #eyes{
+        height:50px;
+        width:50px;
+        border-radius:50%;
+        position:absolute;
+        top:1000px;
+        left:250px;
+        background-color:black;
+    }
